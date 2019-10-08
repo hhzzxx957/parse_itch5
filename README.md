@@ -1,14 +1,15 @@
 # A python parser for Nasdaq ITCH protocol (version 5.0) 
 
 ## What?
-This is a simple program to parse the ITCH 5.0 file, the example file is from  ftp://emi.nasdaq.com/ITCH/Nasdaq_ITCH/01302019.NASDAQ_ITCH50.gz
+This is a simple program to parse the ITCH 5.0 file, the example file is from ftp://emi.nasdaq.com/ITCH/Nasdaq_ITCH/01302019.NASDAQ_ITCH50.gz  
 The main purpose of this program is to get volume-weighted average price (VWAP) for each stock, but can be extended to other uses.
 
 ## How?
-This program is wirtten in python 3.6.8 in jupyter notebook
-with following packages : pandas datetime struct time
+This program is wirtten in python 3.6.8 in jupyter notebook  
+with following packages : pandas, datetime, struct, time
 
 Place the dataset into data folder.
+
 The data format is defined by http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NQTVITCHspecification.pdf
 
 Change the file address and date of the input file before use
