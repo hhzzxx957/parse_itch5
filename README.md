@@ -8,11 +8,13 @@ The main purpose of this program is to get volume-weighted average price (VWAP) 
 This program is wirtten in python 3.6.8 in jupyter notebook  
 with following packages : pandas, datetime, struct, time
 
-Place the dataset into data folder.
+Code is presented in jupyter notebook in src folder  
+Place the dataset into data folder.  
+Change the file address and date of the input file before use.
 
 The data format is defined by http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NQTVITCHspecification.pdf
 
-Change the file address and date of the input file before use
+
 
 ## Disclaimer
 The codes and content are purely informative and none of the information provided constitutes any recommendation regarding any security, transaction or investment strategy for any specific person. The implementation described in the notebook could be risky and the market condition could be volatile and differ from the period covered above. All trading strategies and tools are implemented at the users’ own risk.
